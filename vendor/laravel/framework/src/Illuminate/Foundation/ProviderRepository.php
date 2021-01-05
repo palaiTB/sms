@@ -2,9 +2,11 @@
 
 namespace Illuminate\Foundation;
 
+use Clickatell\ClickatellServiceProvider;
 use Exception;
 use Illuminate\Contracts\Foundation\Application as ApplicationContract;
 use Illuminate\Filesystem\Filesystem;
+
 
 class ProviderRepository
 {
